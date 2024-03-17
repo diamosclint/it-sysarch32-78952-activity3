@@ -1,6 +1,5 @@
 import Header from "./Header"
 import Pokedex from "./Pokedex"
-import Pokemon from "./Pokemon"
 
 function App() {
 

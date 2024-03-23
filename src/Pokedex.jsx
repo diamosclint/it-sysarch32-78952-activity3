@@ -21,7 +21,7 @@ const Pokedex = () => {
         <button className='border border-slate-300 p-2 hover:text-yellow-300' onClick={() => changeLanguage('English')}>English</button>
         <button className='border border-slate-300 p-2' onClick={() => changeLanguage('Japanese')}>Japanese</button>
         <button className='border border-slate-300 p-2' onClick={() => changeLanguage('Chinese')}>Chinese</button>
-        <button className='border border-slate-300 p-2'onClick={() => changeLanguage('French')}>French</button>
+        <button className='border border-slate-300 p-2' onClick={() => changeLanguage('French')}>French</button>
       </div>
       <div className="pokemon-list grid grid-cols-3">
         {pokemonList.map((pokemon, index) => (
